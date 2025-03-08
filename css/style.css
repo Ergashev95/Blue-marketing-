@@ -197,3 +197,44 @@
 }
 
 /* WORK */
+
+/* SITE-FOOTER */
+
+.site-footer {
+   background-color: var(--blue);
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+.footer-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.site-title {
+   color: var(--white);
+   font-size: 50px;
+   font-weight: 700;
+   line-height: 100%;
+}
+.footer-contact {
+   display: flex;
+   flex-direction: column;
+   text-align: end;
+   row-gap: 13px;
+}
+
+
+.footer-phone {
+   color: var(--white);
+   font-size: 18px;
+   font-weight: 700;
+
+}
+
+.footer-email {
+   color: var(--white);
+   font-size: 16px;
+   font-weight: 400;
+}
+/* SITE-FOOTER */
