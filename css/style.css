@@ -6,6 +6,7 @@
     --blue: #3FA5D5;
     --blue-dark: #2A86B1;
     --rubik: "Rubik";
+    --white: #fff;
 }
 
 /* GLOBAL STYLES */
@@ -103,3 +104,33 @@
 }
 /* SITE-HEADER */
 
+
+/* SERVICE */
+
+.service-content {
+   display: flex;
+   justify-content: space-between;
+}
+.service-card {
+   max-width: 255px;
+   width: 100%;
+  background-color: var(--white);
+  padding-top: 23px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 65px;
+  align-items: center;
+  border-radius: 15px;
+}
+.service-headline {
+   color: var(--blue-dark);
+   font-size: 20px;
+   font-weight: 700;
+   text-align: center;
+
+}
+.servive-icon {
+   color: var(--blue);
+}
+/* SERVICE */
